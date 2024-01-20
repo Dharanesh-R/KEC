@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bio data</title>
+	<style type="text/css">
+		@media(min-width:1000px)
+		{
+			
+			.grid
+		{
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			grid-gap: 2rem;
+			text-align: center;
+			color:black;
+			background-color: red;
+			padding:20px;
+		}
+			
+		}
+		}
+
+		.flex
+		{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: skyblue;
+			flex-direction: row;
+			margin: 20px;
+			padding: 20px;
+			font-size: 50px;
+			box-shadow: 10px 10px 20px;
+		}
+		.flex1
+		{
+			display: flex;
+			background-color: pink;
+			border-radius: 5rem;
+			padding: 3rem;
+			box-shadow: 10px 10px 2px;
+		}
+		.grid1
+		{
+			
+			border: 5px solid black;
+			background-color: whitesmoke;
+			padding: 3rem;
+			border-radius: 50px;
+			
+		}
+		.grid
+		{
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			grid-gap: 2rem;
+			text-align: center;
+			color:black;
+			background-color: red;
+			padding:20px;
+		}
+		table
+		{
+			border: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+<h2 align="center" style="color:black;">Bio Data</h2>
+<br>
+<table>
+	<tr>
+		<td>Name : </td>
+		<td><input type="text" name="Name : " value="Enter your Name"></td>
+	</tr>
+	<tr>
+		<td>D.O.B : </td>
+		<td><input type="date" name="D.O.B : "></td>
+	</tr>
+</table>
+<p><strong>Note:</strong>
+	<div class="flex">
+		<div class="flex1">1</div>
+		<div class="flex1">2</div>
+		<div class="flex1">3</div>
+	</div>
+	<div class="grid">
+		<div class="grid1">1</div>
+		<div class="grid1">2</div>
+		<div class="grid1">3</div>
+		<div class="grid1">1</div>
+		<div class="grid1">2</div>
+		<div class="grid1">3</div>
+		<div class="grid1">1</div>
+		<div class="grid1">2</div>
+		<div class="grid1">3</div>
+	</div>
+</body>
+</html>
